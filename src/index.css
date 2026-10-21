@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-azure-dark: #4338CA;
+  --color-azure-deep: #312E81;
+  --color-azure-light: #C7D2FE;
+  --color-azure-ice: #818CF8;
+  --color-azure-tint: #EEF2FF;
+  --color-cobalt-dark: #4338CA;
+  --color-cobalt-deep: #312E81;
+  --color-cobalt-light: #C7D2FE;
+  --color-cobalt-ice: #818CF8;
+  --color-cobalt-tint: #EEF2FF;
+  --color-onyx: #141414;
+  --color-onyx-pure: #000000;
+  --color-charcoal: #2B2B2B;
+  --color-paper-white: #FFFFFF;
+}
+
+.bg-branding-gradient {
+  background: linear-gradient(135deg, #0F172A 0%, #312E81 35%, #4338CA 70%, #6366F1 100%);
+}
+
+.bg-branding-gradient-h {
+  background: linear-gradient(90deg, #0F172A 0%, #312E81 35%, #4338CA 70%, #6366F1 100%);
+}
+
+.bg-branding-gradient-soft {
+  background: linear-gradient(135deg, #EEF2FF 0%, #C7D2FE 100%);
+}
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Robotic MAN 2 Kota Bekasi",
+  "description": "Robotics Club Management System, complete with member data, attendance tracking, and treasurer\u0027s accounts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
